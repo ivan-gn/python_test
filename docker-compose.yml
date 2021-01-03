@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  pythontest:
+    image: pythontest
+    build:
+      context: .
+      dockerfile: ./Dockerfile
